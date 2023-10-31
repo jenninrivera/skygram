@@ -1,0 +1,140 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fname": "Ashley",
+            "lname": "Rivera",
+            "username": "ashley.rs",
+            "pro_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNVA4se8zsSXV4qdIfq8Q8kKOztogR5HPwgg&usqp=CAU",
+            "followers": 4959,
+            "following": 150,
+            "saved": {
+                "posts": [
+                    {
+
+                    }
+                ]
+            },
+            "liked" : {
+                "posts" : [{
+
+                }]
+            }
+        },
+        {
+            "id": 2,
+            "fname": "Jenni",
+            "lname": "Rivera",
+            "username": "jenninrivera",
+            "pro_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmckCrTUelP7NLgUHjL3mvdd3TvuA8J1_lKA&usqp=CAU",
+            "followers": 5111,
+            "following": 120,
+            "saved": {
+                "posts": [
+                    {
+
+                    }
+                ]
+            },
+            "liked" : {
+                "posts" : [{
+
+                }]
+            }
+        },
+        {
+            "id": 3,
+            "username": "jsmithy",
+            "fname": "John",
+            "lname": "Smith",
+            "pro_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRudDbHeW2OobhX8E9fAY-ctpUAHeTNWfaqJA&usqp=CAU",
+            "followers": 7865,
+            "following": 968,
+            "saved": {
+                "posts": [
+                    {
+
+                    }
+                ]
+            },
+            "liked" : {
+                "posts" : [{
+
+                }]
+            }
+        },
+        {
+            "id": 4,
+            "username": "sammy89",
+            "fname": "Samanatha",
+            "lname": "Gregory",
+            "pro_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdQ9vcKZaIL2Y0c0B1A64kZcLJiCZQGvyjnw&usqp=CAU",
+            "followers": 3464,
+            "following": 346,
+            "saved": {
+                "posts": [
+                    {
+
+                    }
+                ]
+            },
+            "liked" : {
+                "posts" : [{
+
+                }]
+            }
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "user_id": 4,
+            "img": "",
+            "caption": "",
+            "likes": 254,
+            "comments" : [
+                {
+                    "id": 1,
+                    "user_id": 3,
+                    "text": "Have fun!"
+                },
+                {
+                    "id": 2,
+                    "user_id": 1,
+                    "text": "Fly safe!"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "user_id": 3,
+            "img": "",
+            "caption": "",
+            "likes": 254,
+            "comments" : [
+                {
+                    "id": 1,
+                    "user_id": 3,
+                    "text": "Have fun!"
+                },
+                {
+                    "id": 2,
+                    "user_id": 1,
+                    "text": "Fly safe!"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "user_id": 3,
+            "text": "Have fun!"
+        },
+        {
+            "id": 2,
+            "user_id": 1,
+            "text": "Fly safe!"
+        }
+    ]
+}

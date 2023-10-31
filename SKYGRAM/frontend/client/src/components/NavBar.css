@@ -1,0 +1,46 @@
+.NavBar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.NavBar__logo {
+    width: 120px;
+    margin: 25px;
+    color: black;
+}
+
+.NavBar__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.NavBar__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 12px 17px 12px 17px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.NavBar__buttons:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+
+.NavBar__button > span {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10px
+}
+
+.NavBar__more {
+    position: fixed;
+    bottom: 3px;
+}
